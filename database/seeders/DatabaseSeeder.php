@@ -16,9 +16,14 @@ class DatabaseSeeder extends Seeder
     {
         Feedback::factory()->count(10)->create();
         User::factory()->create([
-            'email' => 'test@example.com',
-            'password' => 'test',
+            'email' => 'manager@example.com',
+            'password' => 'manager',
             'role' => 'manager',
+        ]);
+        User::factory()->create([
+            'email' => 'client@example.com',
+            'password' => 'client',
+            'role' => 'client',
         ]);
     }
 }

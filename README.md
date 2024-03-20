@@ -21,6 +21,10 @@
 [http://127.0.0.1:8000/api/documentation](http://127.0.0.1:8000/api/documentation)
 
 ### Доступы для получения токена
-email: test@example.com
-password: test
-device_name: любое
+email: manager@example.com  
+password: manager  
+device_name: любое  
+
+email: client@example.com  
+password: client  
+device_name: любое  
